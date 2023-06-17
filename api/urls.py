@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import HelloView
+from .views import RoomViews
 
 urlpatterns = [
-    path('api',HelloView)
+    path('api',RoomViews.as_view())
 ]

@@ -27,9 +27,7 @@ export default class HomePage extends Component {
         </Routes>
       </Router>
     );
+ 
   }
+
 }
-
-
-
-
